@@ -1,0 +1,84 @@
+.glovopage{
+    overflow: hidden;
+}
+.headerdiv{
+    background-color: rgb(255, 192, 66);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 10px 60px;
+    justify-content: space-between;
+}
+.glovo{
+    color: rgb(1, 121, 99);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-top: 10px;
+}
+.glovo img{
+    position: absolute;
+    z-index: 1;
+    left: 110px;
+}
+button{
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background-color: rgb(1, 121, 99);
+    border: 1px solid rgb(1, 121, 99);
+}
+.homepage{
+    background-color: rgb(255, 192, 66);
+    overflow: hidden;
+    min-height: 125vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 40px;
+    position: relative;
+}
+.food-div{
+   margin-right: 100px;
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+.videodiv{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+}
+.address{
+    width: 530px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 10px;
+}
+.usebutton{
+    width: 210px;
+    background-color: rgb(224, 240, 237);
+    border: none;
+    cursor: pointer;
+    color: rgb(1, 121, 99);
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
