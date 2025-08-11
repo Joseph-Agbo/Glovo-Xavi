@@ -6,7 +6,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 .header{
     display: flex;
@@ -74,6 +74,8 @@
 }
 .usebutton{
     width: 210px;
+    border-radius: 30px;
+    height: 45px;
     background-color: rgb(224, 240, 237);
     border: none;
     cursor: pointer;
@@ -116,6 +118,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    margin-bottom: 80px;
 }
 .bell{
     transform: translateX(-145px);
@@ -153,3 +157,53 @@
 .fourbutton{
     left: 920px;
 }
+.pizzabutton{
+    left: 260px;
+    padding: 4px 8px;
+}
+.johnbutton{
+    left: 470px;
+    top: 117px;
+    padding: 4px 7px;
+} 
+.sub-button{
+    left: 705px;
+    top: 118px;
+}
+.bellbutton{
+    left: 920px;
+    padding: 4px 8px;
+}
+.three-fast{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.citydiv{
+    transform: translateX(-30px);
+}
+.grocerydiv{
+    transform: translateX(60px);
+}
+.three-div{
+    display: flex;
+    justify-content: center;
+}
+.cityp{
+    text-align: center;
+}
+.tri{
+    transform: translateX(60px);
+}
+.fastdiv{
+    transform: translateX(15px);
+}
+.explorebutton{
+    background-color: rgb(0, 158, 129);
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 12px 17px;
+    border: none;
+    border-radius: 25px;
+}
+
