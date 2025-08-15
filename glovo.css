@@ -205,5 +205,54 @@
     padding: 12px 17px;
     border: none;
     border-radius: 25px;
+    margin-bottom: 30px;
+}
+.country{
+      background-color: rgb(255, 192, 66); /* Blue background for visibility */
+      position: relative;
+      height: 800px;
+      clip-path: polygon(
+        0% 20%, /* Bottom-left of top curve */
+        10% 20%, /* Start of top curve */
+        20% 10%, /* Top curve deepening */
+        50% 0%, /* Middle of top C curve */
+        80% 10%, /* Top curve rising */
+        90% 20%, /* End of top curve */
+        100% 20%, /* Top-right corner */
+        100% 100%, /* Bottom-right corner (lower) */
+        50% 90%, /* Middle of bottom curve, slightly tilted */
+        0% 80% /* Bottom-left corner (higher, for / shape) */
+      );
+      display: flex; /* Enable flexbox for vertical layout */
+      flex-direction: column; /* Stack items vertically */
+      justify-content: flex-start; /* Start content from top */
+      align-items: center; /* Center items horizontally (optional) */
+      padding-top: 40px; /* Add padding to avoid clipping at top curve */
+}
+.first-country button{
+    background-color: rgb(0, 158, 129);
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 12px 17px;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    background: white;
+    margin-bottom: 11px;
+}
+.iphone-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-top: 30px;
+}
+.iphone-div img{
+    transform: rotate(-20deg); /* Tilt to resemble / */
+      transform-origin: center; /* Rotate around center */
+      border-radius: 20px; /* Smooth corners for a curved / effect */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
 }
 
