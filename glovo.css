@@ -211,6 +211,7 @@
       background-color: rgb(255, 192, 66); /* Blue background for visibility */
       position: relative;
       height: 800px;
+      border-radius: 20px;
       clip-path: polygon(
         0% 20%, /* Bottom-left of top curve */
         10% 20%, /* Start of top curve */
@@ -227,7 +228,7 @@
       flex-direction: column; /* Stack items vertically */
       justify-content: flex-start; /* Start content from top */
       align-items: center; /* Center items horizontally (optional) */
-      padding-top: 40px; /* Add padding to avoid clipping at top curve */
+      padding-top: 100px; /* Add padding to avoid clipping at top curve */
 }
 .first-country button{
     background-color: rgb(0, 158, 129);
@@ -244,15 +245,103 @@
     display: flex;
     flex-wrap: wrap;
     width: 70%;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 .iphone-div img{
-    transform: rotate(-20deg); /* Tilt to resemble / */
-      transform-origin: center; /* Rotate around center */
-      border-radius: 20px; /* Smooth corners for a curved / effect */
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
+    transform: rotate(-40deg); /* Tilt to resemble / */
+    transform-origin: center; 
+    border-radius: 20px; /* Smooth corners for a curved / effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
+.appdiv{
+   float: right;
+   margin-right: 70px;
+}
+.s-shaped-div{
+    position: relative;
+    background: linear-gradient(to bottom, rgb(224,240,237), rgb(67, 109, 199));
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+    overflow: hidden;
+    clear: right;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.shaped-image{
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+.register-button{
+    background-color: rgb(0, 158, 129);
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 12px 17px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.footer{
+    background-color: rgb(30, 27, 27);
+    color: white;
+}
+.footer-p{
+    color: rgb(1, 121, 99);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-top: 40px;
+}
+.footer-p img{
+    position: absolute;
+    z-index: 1;
+    left: 110px;
+}
+.firstfooter-link a{
+    color: rgb(234, 231, 231);
+    line-height: 1.8;
+    font-size: 18px;
+    text-decoration: none;
+}
+.secondfooter-link a{
+    color: rgb(234, 231, 231);
+    line-height: 1.8;
+    font-size: 18px;
+    text-decoration: none;
+}
+.thirdfooter-link a{
+    color: rgb(234, 231, 231);
+    line-height: 1.9;
+    font-size: 17px;
+    text-decoration: none;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#lang{
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px 0 10px 10px;
+}
+.form-div{
+    padding-bottom: 50px;
+}
+
 
