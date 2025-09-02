@@ -1,0 +1,533 @@
+.glovopage{
+    overflow: hidden;
+}
+.headerdiv{
+    background-color: rgb(255, 192, 66);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 10px 60px;
+    justify-content: space-between;
+}
+.glovo{
+    color: rgb(1, 121, 99);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-top: 10px;
+}
+.glovo img{
+    position: absolute;
+    z-index: 1;
+    left: 110px;
+}
+.button{
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background-color: rgb(1, 121, 99);
+    border: 1px solid rgb(1, 121, 99);
+}
+.homepage{
+    background-color: rgb(255, 192, 66);
+    overflow: hidden;
+    min-height: 125vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 40px;
+    position: relative;
+}
+.food-div{
+   margin-right: 100px;
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+.videodiv{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+}
+.address{
+    width: 530px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 10px;
+}
+.usebutton{
+    width: 210px;
+    border-radius: 30px;
+    height: 45px;
+    background-color: rgb(224, 240, 237);
+    border: none;
+    cursor: pointer;
+    color: rgb(1, 121, 99);
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#circle{
+    border-radius: 150px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-45px);
+    font-size: 42px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pizza{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+    position: relative;
+}
+.four{
+    transform: translateX(-145px);
+}
+.mcdonalds{
+    transform: translateX(145px);
+}
+.kfc{
+    transform: translateX(45px);
+}.king{
+    transform: translateX(-45px);
+}
+.hut{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-bottom: 80px;
+}
+.bell{
+    transform: translateX(-145px);
+}
+.hot{
+    transform: translateX(145px);
+}
+.papa{
+    transform: translateX(45px);
+}.sub{
+    transform: translateX(-45px);
+}
+.mcbutton{
+    z-index: 1;
+    position: absolute;
+    left: 250px;
+    top: 120px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 3px 7px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(137, 97, 16);
+    background-color: rgb(249, 239, 220);
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.kfcbutton{
+    left: 500px;
+    padding: 4px 7px;
+} 
+.kingbutton{
+    left: 695px;
+    top: 118px;
+}
+.fourbutton{
+    left: 920px;
+}
+.pizzabutton{
+    left: 260px;
+    padding: 4px 8px;
+}
+.johnbutton{
+    left: 470px;
+    top: 117px;
+    padding: 4px 7px;
+} 
+.sub-button{
+    left: 705px;
+    top: 118px;
+}
+.bellbutton{
+    left: 920px;
+    padding: 4px 8px;
+}
+.three-fast{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.citydiv{
+    transform: translateX(-30px);
+}
+.grocerydiv{
+    transform: translateX(60px);
+}
+.three-div{
+    display: flex;
+    justify-content: center;
+}
+.cityp{
+    text-align: center;
+}
+.tri{
+    transform: translateX(60px);
+}
+.fastdiv{
+    transform: translateX(15px);
+}
+.explorebutton{
+    background-color: rgb(0, 158, 129);
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 12px 17px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.country{
+      background-color: rgb(255, 192, 66); /* Blue background for visibility */
+      position: relative;
+      height: 800px;
+      border-radius: 20px;
+      clip-path: polygon(
+        0% 20%, /* Bottom-left of top curve */
+        10% 20%, /* Start of top curve */
+        20% 10%, /* Top curve deepening */
+        50% 0%, /* Middle of top C curve */
+        80% 10%, /* Top curve rising */
+        90% 20%, /* End of top curve */
+        100% 20%, /* Top-right corner */
+        100% 100%, /* Bottom-right corner (lower) */
+        50% 90%, /* Middle of bottom curve, slightly tilted */
+        0% 80% /* Bottom-left corner (higher, for / shape) */
+      );
+      display: flex; /* Enable flexbox for vertical layout */
+      flex-direction: column; /* Stack items vertically */
+      justify-content: flex-start; /* Start content from top */
+      align-items: center; /* Center items horizontally (optional) */
+      padding-top: 100px; /* Add padding to avoid clipping at top curve */
+}
+.first-country button{
+    background-color: rgb(0, 158, 129);
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 12px 17px;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    background: white;
+    margin-bottom: 11px;
+}
+.iphone-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-top: 80px;
+}
+.iphone-div img{
+    transform: rotate(-40deg); /* Tilt to resemble / */
+    transform-origin: center; 
+    border-radius: 20px; /* Smooth corners for a curved / effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.appdiv{
+   float: right;
+   margin-right: 70px;
+}
+.s-shaped-div{
+    position: relative;
+    background: linear-gradient(to bottom, rgb(224,240,237), rgb(67, 109, 199));
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+    overflow: hidden;
+    clear: right;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.shaped-image{
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+.register-button{
+    background-color: rgb(0, 158, 129);
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 12px 17px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.footer{
+    background-color: rgb(30, 27, 27);
+    color: white;
+    /* padding-bottom: 50px; */
+}
+.footer-p{
+    color: rgb(1, 121, 99);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-top: 40px;
+}
+.footer-p img{
+    position: absolute;
+    z-index: 1;
+    left: 110px;
+}
+.firstfooter-link a{
+    color: rgb(234, 231, 231);
+    line-height: 1.8;
+    font-size: 18px;
+    text-decoration: none;
+}
+.secondfooter-link a{
+    color: rgb(234, 231, 231);
+    line-height: 1.8;
+    font-size: 18px;
+    text-decoration: none;
+}
+.thirdfooter-link a{
+    color: rgb(234, 231, 231);
+    line-height: 1.9;
+    font-size: 17px;
+    text-decoration: none;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#lang{
+    width: 245px;
+    height: 48px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px 0 10px 10px;
+    font-size: 16px;
+}
+.form-div{
+    padding-bottom: 50px;
+    transform: translateX(60px);
+    margin-top: 70px;
+}
+.login-logo{
+    color: rgb(1, 121, 99);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-top: 10px;
+    background-color: rgb(252, 252, 252);
+}
+.login-logo img{
+    position: absolute;
+    z-index: 1;
+    left: 110px;
+}
+.loginpage{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    transform: translateX(50px);
+    background-color: rgb(252, 252, 252);
+}
+.mylogform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    text-align: center;
+}
+#prefix{
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 4px;
+}
+#number-input{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.form-code{
+    display: flex;
+}
+.first-prefix{
+    display: flex;
+    flex-direction: column;
+}
+.second-prefix{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(15px);
+}
+.whatsapp{
+    width: 380px;
+    height: 41px;
+    border-radius: 30px;
+    background-color: rgb(1, 121, 99);
+    border: none;
+    cursor: pointer;
+}
+.google{
+    width: 380px;
+    height: 43px;
+    border-radius: 30px;
+    background-color: rgb(237, 235, 235);
+    border:1px solid gray;
+    cursor: pointer;
+}
+.facebook{
+    width: 380px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(237, 235, 235);
+    border:1px solid gray;
+    cursor: pointer;
+}
+.email{
+    width: 380px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(237, 235, 235);
+    border:1px solid gray;
+    cursor: pointer;
+}
+#search-input{
+    width: 380px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(69, 237, 69);
+    outline: none;
+    padding-left: 50px;
+}
+#search-input::placeholder{
+    font-size: 18px;
+}
+.search-button{
+    width: 380px;
+    height: 43px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    color: rgb(9, 96, 9);
+    font-size: 19px;
+    font-weight: bolder;
+    background-color: rgb(175, 216, 175);
+}
+.second-none{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 25px;
+    padding: 60px 40px 30px 40px;
+    position: absolute;
+    z-index: 1;
+    bottom: 60px;
+}
+.xclass{
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 70px;
+    width: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 18px;
+    background-color: rgb(193, 190, 190);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    left: 340px;
+    bottom: 30px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5); /* You can adjust the opacity and color */
+  filter: blur(10px) brightness(35%);
+  z-index: 2;
+  display: none;
+}
+
+.none {
+  position: fixed;
+  display: none;
+  left: 380px;
+  margin-top: 10px;
+  z-index: 3; /* Make sure it's on top of the overlay */
+} 
+.second-address{
+    width: 540px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    height: 53px;
+    padding: 0 10px;
+}
+.fixed{
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    z-index: 2;
+    background-color: rgb(255, 192, 66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+.sec-pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+

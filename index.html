@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xavi's Bistro</title>
-    <link rel="stylesheet" href="glovo.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/apple-touch-icon.png">
-    <script src="https://kit.fontawesome.com/0a56ee4cb9.js" crossorigin="anonymous"></script>
     <style>
         *{
             margin: 0;
@@ -24,13 +23,33 @@
                     <p>Bistro</p>
                 </div>
                 <div class="divbutton">
-                    <button class="button">
+                    <button style="cursor: pointer;" class="button">
                         <i style="color: wheat;" class="fa-solid fa-user"></i>
-                        <a style="color: white; margin-left: 8px; text-decoration: none; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" href="">Login</a>
+                        <a style="color: white; margin-left: 8px; text-decoration: none; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" href="login.html">Login</a>
                     </button>
                 </div>
             </div>
         </div>
+        <div class="fixed">
+            <div class="sec-pro">
+                <p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: 700;">Enter your address to know <span style="background-color: white;">what's near you</span></p><br>
+                <div class="second-address">
+                    <p id="yourfont" style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; color: gray;"><i style="margin-right: 15px;" class="fa-solid fa-lightbulb"></i>What's your address? <i style="transform: translateX(290px); font-size: 22px;" class="fa-solid fa-arrow-right"></i></p>
+                </div>
+                <div style="background-color: rgb(255, 192, 66); height: 20px;"></div>
+            </div>
+        </div>
+        <!-- <div class="font-index">
+            <div class="second-index">
+                <p class="xclass" id="close-location">X</p>
+                <p style="font-size: 28px; font-weight: bolder; font-family: Arial, Helvetica, sans-serif;">Where shall we deliver to?</p><br>
+                <form action="">
+                    <input id="search-input" type="text" placeholder="Search address"><br><br>
+                    <i style="position: relative; z-index: 1; bottom: 48px; color: gray; left: 20px; font-size: 18px;" class="fa-solid fa-magnifying-glass"></i>
+                </form>
+                <button class="search-button" type="button">Use current location</button>
+            </div>
+        </div> -->
         <div class="homepage">
             <div class="videodiv">
                 <video autoplay muted loop class="video">
@@ -41,8 +60,19 @@
                 <p style="font-size: 53px; font-weight: bolder; font-family: Arial, Helvetica, sans-serif;">Food delivery and <br> more</p><br><br>
                 <p style="font-size: 25px; font-weight: bolder; font-family: Arial, Helvetica, sans-serif;">Groceries, shops, pharmacies, anything!</p><br><br>
                 <div class="address">
-                    <p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; color: gray;"><i style="margin-right: 15px;" class="fa-solid fa-lightbulb"></i>What's your address?</p>
-                    <button class="usebutton">Use current location</button>
+                    <p id="your-address" style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; color: gray;"><i style="margin-right: 15px;" class="fa-solid fa-lightbulb"></i>What's your address?</p>
+                    <button type="button" class="usebutton">Use current location</button>
+                </div>
+                <div class="none">
+                   <div class="second-none">
+                        <p class="xclass" id="close-location">X</p>
+                        <p style="font-size: 28px; font-weight: bolder; font-family: Arial, Helvetica, sans-serif;">Where shall we deliver to?</p><br>
+                        <form action="">
+                            <input id="search-input" type="text" placeholder="Search address"><br><br>
+                            <i style="position: relative; z-index: 1; bottom: 48px; color: gray; left: 20px; font-size: 18px;" class="fa-solid fa-magnifying-glass"></i>
+                        </form>
+                        <button class="search-button" type="button">Use current location</button>
+                   </div>
                 </div>
             </div>
             <svg class="wave" viewBox="0 0 1440 150" preserveAspectRatio="none">
@@ -180,7 +210,7 @@
                 <p>Bistro</p>
             </div>
             <div class="footer-links">
-                <div style="text-align: center;">
+                <div class="first-footer" style="text-align: center; transform: translateX(70px);">
                     <p style="color: white; font-size: 25px; font-weight: bolder;">Let's do it together</p><br>
                     <div class="firstfooter-link">
                        <a href="">Careers</a><br>
@@ -189,7 +219,7 @@
                        <a href="">Bistro Business</a>
                     </div>
                 </div>
-                <div style="text-align: center;">
+                <div class="second-footer" style="text-align: center;">
                     <p style="color: white; font-size: 25px; font-weight: bolder;">Links of interest</p><br>
                     <div class="secondfooter-link">
                         <a href="">About Us</a><br>
@@ -200,7 +230,7 @@
                         <a href="">Log in</a>
                     </div>
                 </div>
-                <div style="text-align: center;">
+                <div class="third-footer" style="text-align: center; transform: translateX(-70px);">
                     <img style="margin-bottom: 25px; margin-top: 30px;" src="images/appstoredownload.svg" alt="appstore"><br>
                     <img style="margin-bottom: 35px;" src="images/playstoredownload.svg" alt="Google playstore"><br>
                     <div class="thirdfooter-link">
@@ -228,5 +258,8 @@
             </div>
         </div>
     </div>
+    <div class="overlay"></div>
+    <script src="https://kit.fontawesome.com/0a56ee4cb9.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
